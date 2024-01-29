@@ -26,7 +26,7 @@ for /f "tokens=1-4" %%a in (%file%) do (
     set "group=%%d"
     echo !jmeno! !fullname! !pswd! !group!
 
-    net !jmeno! !pswd! /add /fullname: "!fullname!"
+    net user !jmeno! !pswd! /add /fullname: "!fullname!"
     net localgroup !group! !jmeno! /add
 
     echo Uzivatel !fullname! 
