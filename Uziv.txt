@@ -1,0 +1,3 @@
+Marek Doležel 1234 Admin
+Jan Novak 2345 Admin
+Flaviu Beltz 3456 Uzivatel
